@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware Gamer - Tienda de Componentes para PC</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body class="hardware__body">
+    <header class="hardware__header">
+        <div class="container">
+            <h1>Hardware Gamer</h1>
+            <nav class="hardware__nav">
+                <ul>
+                    <li><a href="#placas-madre">Placas Madre</a></li>
+                    <li><a href="#gabinetes">Gabinetes</a></li>
+                    <li><a href="#ventiladores">Ventiladores</a></li>
+                    <li><a href="#otros">Otros Componentes</a></li>
+                    <li><a href="#cpu">Procesador (CPU)</a></li>
+                    <li><a href="#gpu">Tarjeta Gráfica (GPU)</a></li>
+                    <li><a href="#ram">Memoria RAM</a></li>
+                    <li><a href="#almacenamiento">Almacenamiento</a></li>
+                    <li><a href="#psu">Fuente de Alimentación (PSU)</a></li>
+                    <li><a href="#refrigeracion">Refrigeración</a></li>
+                    <li><a href="#case">Caja (Case)</a></li>
+                    <li><a href="#sillas">Sillas Gamer</a></li>
+                    <li><a href="/index.html">Volver a Inicio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="hardware__main">
+        <!-- Sección de Procesadores (CPU) -->
+        <section class="hardware__section" id="cpu">
+            <div class="container">
+                <h2>Procesador (CPU)</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="/assets/images/Intel Core i913900K.jpg" alt="Intel Core i9-13900K">
+                        <h3>Intel Core i9-13900K</h3>
+                        <p class="precio">$699.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('Intel Core i9-13900K', 699.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Intel Core i513600K.jpg" alt="Intel Core i5-13600K">
+                        <h3>Intel Core i5-13600K</h3>
+                        <p class="precio">$399.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('Intel Core i5-13600K', 399.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Intel Core i713700K.jpg" alt="Intel Core i7-13700K">
+                        <h3>Intel Core i7-13700K</h3>
+                        <p class="precio">$499.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('Intel Core i7-13700K', 499.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/AMD Ryzen 9 7950X.jpg" alt="AMD Ryzen 9 7950X">
+                        <h3>AMD Ryzen 9 7950X</h3>
+                        <p class="precio">$899.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('AMD Ryzen 9 7950X', 899.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/AMD Ryzen 7 7800X3D.jpg" alt="AMD Ryzen 7 7800X3D">
+                        <h3>AMD Ryzen 7 7800X3D</h3>
+                        <p class="precio">$599.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('AMD Ryzen 7 7800X3D', 599.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <!-- Puedes agregar más procesadores aquí -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Tarjetas Gráficas (GPU) -->
+        <section id="gpu" class="section">
+            <div class="container">
+                <h2>Tarjeta Gráfica (GPU)</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="/assets/images/Radeon RX 7900 XTX.jpg" alt="Radeon RX 7900 XTX">
+                        <h3>Radeon RX 7900 XTX</h3>
+                        <p class="precio">$999.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('Radeon RX 7900 XTX', 999.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Radeon RX 7900 XT.jpg" alt="Radeon RX 7900 XT">
+                        <h3>Radeon RX 7900 XT</h3>
+                        <p class="precio">$899.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('Radeon RX 7900 XT', 899.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/GeForce RTX 4090.jpg" alt="GeForce RTX 4090">
+                        <h3>GeForce RTX 4090</h3>
+                        <p class="precio">$1499.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('GeForce RTX 4090', 1499.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/GeForce RTX 4080.jpg" alt="GeForce RTX 4080">
+                        <h3>GeForce RTX 4080</h3>
+                        <p class="precio">$1299.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('GeForce RTX 4080', 1299.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/GeForce RTX 4070 Ti.jpg" alt="GeForce RTX 4070 Ti">
+                        <h3>GeForce RTX 4070 Ti</h3>
+                        <p class="precio">$1099.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('GeForce RTX 4070 Ti', 1099.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <!-- Puedes agregar más tarjetas gráficas aquí -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Fuente de Alimentación (PSU) -->
+        <section id="psu" class="section">
+            <div class="container">
+                <h2>Fuente de Alimentación (PSU)</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="/assets/images/Corsair RM850x 2021 850W 80 Plus Gold.jpg" alt="Corsair RM850x (2021)">
+                        <h3>Corsair RM850x (2021)</h3>
+                        <p class="precio">$199.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Corsair RM850x (2021)', 199.99)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/EVGA SuperNOVA 750 G5 750W 80 Plus Gold.jpg" alt="EVGA SuperNOVA 750 G5">
+                        <h3>EVGA SuperNOVA 750 G5</h3>
+                        <p class="precio">$179.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('EVGA SuperNOVA 750 G5', 179.99)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Seasonic Focus GX650  650W 80 Plus Gold.jpg" alt="Seasonic Focus GX-650">
+                        <h3>Seasonic Focus GX-650</h3>
+                        <p class="precio">$129.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Seasonic Focus GX-650', 129.99)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Cooler Master V850 SFX Gold - 850W, 80 Plus Gold.jpg"
+                            alt="Cooler Master V850 SFX Gold">
+                        <h3>Cooler Master V850 SFX Gold</h3>
+                        <p class="precio">$209.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Cooler Master V850 SFX Gold', 209.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Be Quiet! Straight Power 11  750W 80 Plus Platinum.jpg"
+                            alt="Be Quiet! Straight Power 11">
+                        <h3>Be Quiet! Straight Power 11</h3>
+                        <p class="precio">$249.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Be Quiet! Straight Power 11', 249.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <!-- Puedes agregar más fuentes de alimentación aquí -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Refrigeración -->
+        <section id="refrigeracion" class="section">
+            <div class="container">
+                <h2>Refrigeración</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="/assets/images/Noctua NHD15.jpg" alt="Noctua NH-D15">
+                        <h3>Noctua NH-D15</h3>
+                        <p class="precio">$89.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('Noctua NH-D15', 89.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="img/be quiet Dark Rock Pro 4.jpg" alt="be quiet! Dark Rock Pro 4">
+                        <h3>be quiet! Dark Rock Pro 4</h3>
+                        <p class="precio">$79.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('be quiet! Dark Rock Pro 4', 79.99)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Cooler Master Hyper 212 Black Edition.jpg"
+                            alt="Cooler Master Hyper 212 Black Edition">
+                        <h3>Cooler Master Hyper 212 Black Edition</h3>
+                        <p class="precio">$49.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Cooler Master Hyper 212 Black Edition', 49.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Corsair iCUE H150i Elite Capellix.jpg" alt="Corsair iCUE H150i Elite Capellix">
+                        <h3>Corsair iCUE H150i Elite Capellix</h3>
+                        <p class="precio">$159.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Corsair iCUE H150i Elite Capellix', 159.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/NZXT Kraken X63.jpg" alt="NZXT Kraken X63">
+                        <h3>NZXT Kraken X63</h3>
+                        <p class="precio">$139.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('NZXT Kraken X63', 139.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <!-- Puedes agregar más sistemas de refrigeración aquí -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Caja (Case) -->
+        <section id="case" class="section">
+            <div class="container">
+                <h2>Caja (Case)</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="/assets/images/NZXT H510.jpg" alt="NZXT H510">
+                        <h3>NZXT H510</h3>
+                        <p class="precio">$79.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('NZXT H510', 79.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Fractal Design Meshify C.jpg" alt="Fractal Design Meshify C">
+                        <h3>Fractal Design Meshify C</h3>
+                        <p class="precio">$89.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Fractal Design Meshify C', 89.99)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Corsair iCUE 4000X RGB.jpg" alt="Corsair iCUE 4000X RGB">
+                        <h3>Corsair iCUE 4000X RGB</h3>
+                        <p class="precio">$129.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Corsair iCUE 4000X RGB', 129.99)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Lian Li PCO11 Dynamic.jpg" alt="Lian Li PC-O11 Dynamic">
+                        <h3>Lian Li PC-O11 Dynamic</h3>
+                        <p class="precio">$159.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Lian Li PC-O11 Dynamic', 159.99)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Phanteks Eclipse P300A.jpg" alt="Phanteks Eclipse P300A">
+                        <h3>Phanteks Eclipse P300A</h3>
+                        <p class="precio">$69.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Phanteks Eclipse P300A', 69.99)">Agregar al Carrito</button>
+                    </div>
+                    <!-- Puedes agregar más gabinetes aquí -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Memoria RAM -->
+        <section id="ram" class="section">
+            <div class="container">
+                <h2>Memoria RAM</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="/assets/images/Corsair Vengeance LPX 16GB 2 x 8GB DDR4 3200MHz.jpg"
+                            alt="Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz">
+                        <h3>Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz</h3>
+                        <p class="precio">$79.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz', 79.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/G.Skill Trident Z RGB 16GB 2 x 8GB DDR4 3600MHz.jpg"
+                            alt="G.Skill Trident Z RGB 16GB (2 x 8GB) DDR4 3600MHz">
+                        <h3>G.Skill Trident Z RGB 16GB (2 x 8GB) DDR4 3600MHz</h3>
+                        <p class="precio">$99.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('G.Skill Trident Z RGB 16GB (2 x 8GB) DDR4 3600MHz', 99.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Corsair Dominator Platinum RGB 32GB 2 x 16GB DDR5 5200MHz.jpg"
+                            alt="Corsair Dominator Platinum RGB 32GB (2 x 16GB) DDR5 5200MHz">
+                        <h3>Corsair Dominator Platinum RGB 32GB (2 x 16GB) DDR5 5200MHz</h3>
+                        <p class="precio">$299.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Corsair Dominator Platinum RGB 32GB (2 x 16GB) DDR5 5200MHz', 299.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/TeamGroup T-Force Delta RGB 16GB 2 x 8GB DDR4 3200MHz.jpg"
+                            alt="TeamGroup T-Force Delta RGB 16GB (2 x 8GB) DDR4 3200MHz">
+                        <h3>TeamGroup T-Force Delta RGB 16GB (2 x 8GB) DDR4 3200MHz</h3>
+                        <p class="precio">$89.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('TeamGroup T-Force Delta RGB 16GB (2 x 8GB) DDR4 3200MHz', 89.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Kingston HyperX Fury 32GB 2 x 16GB DDR4 3200MHz.jpg"
+                            alt="Kingston HyperX Fury 32GB (2 x 16GB) DDR4 3200MHz">
+                        <h3>Kingston HyperX Fury 32GB (2 x 16GB) DDR4 3200MHz</h3>
+                        <p class="precio">$149.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Kingston HyperX Fury 32GB (2 x 16GB) DDR4 3200MHz', 149.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <!-- Puedes agregar más memorias RAM aquí -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Almacenamiento -->
+        <section id="almacenamiento" class="section">
+            <div class="container">
+                <h2>Almacenamiento</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="/assets/images/Western Digital WD Black SN850 1TB NVMe M.2 SSD.jpg"
+                            alt="Western Digital WD Black SN850 1TB NVMe M.2 SSD">
+                        <h3>Western Digital WD Black SN850 1TB NVMe M.2 SSD</h3>
+                        <p class="precio">$199.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Western Digital WD Black SN850 1TB NVMe M.2 SSD', 199.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Samsung 970 EVO Plus 1TB NVMe M.2 SSD.jpg"
+                            alt="Samsung 970 EVO Plus 1TB NVMe M.2 SSD">
+                        <h3>Samsung 970 EVO Plus 1TB NVMe M.2 SSD</h3>
+                        <p class="precio">$179.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Samsung 970 EVO Plus 1TB NVMe M.2 SSD', 179.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Crucial MX500 1TB 3D NAND SATA 2.5-Inch SSD.jpg"
+                            alt="Crucial MX500 1TB 3D NAND SATA 2.5-Inch SSD">
+                        <h3>Crucial MX500 1TB 3D NAND SATA 2.5-Inch SSD</h3>
+                        <p class="precio">$99.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Crucial MX500 1TB 3D NAND SATA 2.5-Inch SSD', 99.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Seagate BarraCuda 2TB 35Inch HDD.jpg" alt="Seagate BarraCuda 2TB 3.5-Inch HDD">
+                        <h3>Seagate BarraCuda 2TB 3.5-Inch HDD</h3>
+                        <p class="precio">$69.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Seagate BarraCuda 2TB 3.5-Inch HDD', 69.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Western Digital WD Blue 4TB 35Inch HDD.jpg"
+                            alt="Western Digital WD Blue 4TB 3.5-Inch HDD">
+                        <h3>Western Digital WD Blue 4TB 3.5-Inch HDD</h3>
+                        <p class="precio">$129.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Western Digital WD Blue 4TB 3.5-Inch HDD', 129.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <!-- Puedes agregar más opciones de almacenamiento aquí -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Sillas Gamer -->
+        <section id="sillas" class="section">
+            <div class="container">
+                <h2>Sillas Gamer</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="/assets/images/Secretlab TITAN Evo 2022 Series.jpg" alt="Secretlab TITAN Evo 2022 Series">
+                        <h3>Secretlab TITAN Evo 2022 Series</h3>
+                        <p class="precio">$399.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Secretlab TITAN Evo 2022 Series', 399.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Herman Miller x Logitech G Embody Gaming Chair.jpg"
+                            alt="Herman Miller x Logitech G Embody Gaming Chair">
+                        <h3>Herman Miller x Logitech G Embody Gaming Chair</h3>
+                        <p class="precio">$1499.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('Herman Miller x Logitech G Embody Gaming Chair', 1499.99)">Agregar
+                            al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/DXRacer Formula Series.jpg" alt="DXRacer Formula Series">
+                        <h3>DXRacer Formula Series</h3>
+                        <p class="precio">$299.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('DXRacer Formula Series', 299.99)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/AKRacing Masters Series Pro.jpg" alt="AKRacing Masters Series Pro">
+                        <h3>AKRacing Masters Series Pro</h3>
+                        <p class="precio">$349.99</p>
+                        <button class="boton-agregar"
+                            onclick="agregarAlCarrito('AKRacing Masters Series Pro', 349.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="/assets/images/Corsair T3 Rush.jpg" alt="Corsair T3 Rush">
+                        <h3>Corsair T3 Rush</h3>
+                        <p class="precio">$199.99</p>
+                        <button class="boton-agregar" onclick="agregarAlCarrito('Corsair T3 Rush', 199.99)">Agregar al
+                            Carrito</button>
+                    </div>
+                    <!-- Puedes agregar más sillas gamer aquí -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="hardware__footer">
+        <p>&copy; 2023 Cielo. Todos los derechos reservados.</p>
+    </footer>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

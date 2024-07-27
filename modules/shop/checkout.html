@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagar - gam.lop</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body class="checkout__body">
+    <header class="checkout__header">
+        <h1>gam.lop</h1>
+        <nav class="checkout__nav">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/index.html#productos">Productos</a></li>
+                <li><a href="/index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="checkout__main">
+        <section id="pago">
+            <h2>Pagar</h2>
+            <form class="checkout__form" onsubmit="procesarPago(event)">
+                <label class="checkout__label" for="nombre">Nombre:</label>
+                <input class="checkout__input" type="text" id="nombre" name="nombre" required>
+
+                <label class="checkout__label" for="direccion">Dirección:</label>
+                <input class="checkout__input" type="text" id="direccion" name="direccion" required>
+
+                <label class="checkout__label" for="tarjeta">Número de Tarjeta:</label>
+                <input class="checkout__input" type="text" id="tarjeta" name="tarjeta" required>
+
+                <label class="checkout__label" for="expiracion">Fecha de Expiración:</label>
+                <input class="checkout__input" type="text" id="expiracion" name="expiracion" required>
+
+                <label class="checkout__label" for="cvv">CVV:</label>
+                <input class="checkout__input" type="text" id="cvv" name="cvv" required>
+
+                <button class="checkout__button" type="submit">Pagar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="checkout__footer">
+        <p>&copy; 2024 gam.lop. Todos los derechos reservados.</p>
+    </footer>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
