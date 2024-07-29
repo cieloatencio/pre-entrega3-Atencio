@@ -71,3 +71,11 @@ function procesarPago(event) {
     actualizarCarrito();
     window.location.href = 'index.html';
 }
+
+document.querySelector(".scroll-top-widget").addEventListener('click', function (event) {
+    event.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
