@@ -8,37 +8,41 @@
   font-family: "Vidaloka";
   src: url("../assets/fonts/Vidaloka-Regular.ttf") format("truetype");
 }
+.scroll-top-widget {
+  align-items: center;
+  background-color: #121212;
+  border-radius: 50%;
+  bottom: 80px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  color: #FAFAFA;
+  cursor: pointer;
+  display: none;
+  font-size: 1.5rem;
+  height: 50px;
+  justify-content: center;
+  position: fixed;
+  right: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  width: 50px;
+  z-index: 999;
+}
+.scroll-top-widget:hover {
+  background-color: black;
+}
 @media (max-width: 768px) {
   .scroll-top-widget {
-    align-items: center;
-    background-color: #121212;
-    border-radius: 50%;
-    bottom: 80px;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
-    color: white;
-    cursor: pointer;
     display: flex;
-    font-size: 1.5rem;
-    height: 50px;
-    justify-content: center;
-    position: fixed;
-    right: 15px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-    width: 50px;
-    z-index: 1000;
-  }
-  .scroll-top-widget:hover {
-    background-color: black;
   }
 }
+
 .whatsapp-widget {
   align-items: center;
-  background-color: #fd96e7;
+  background-color: #4dc247;
   border-radius: 50%;
   bottom: 20px;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
-  color: white;
+  color: #FAFAFA;
   display: flex;
   font-size: 1.5rem;
   height: 50px;
@@ -49,10 +53,10 @@
   text-decoration: none;
   transition: background-color 0.3s;
   width: 50px;
-  z-index: 1000;
+  z-index: 998;
 }
 .whatsapp-widget:hover {
-  background-color: #fc64dc;
+  background-color: #3ba135;
 }
 
 .index__body {

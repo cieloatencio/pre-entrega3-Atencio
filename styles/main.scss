@@ -8,6 +8,7 @@
     font-family: "Vidaloka";
     src: url("../assets/fonts/Vidaloka-Regular.ttf") format("truetype");
 }
+
 // Widgets
 
 @mixin scroll-top-widget($size: 50px, $bg-color: #121212, $icon-size: 1.5rem) {
@@ -16,9 +17,9 @@
     border-radius: 50%;
     bottom: 80px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
-    color: white;
+    color: #FAFAFA;
     cursor: pointer;
-    display: flex;
+    display: none;
     font-size: $icon-size;
     height: $size;
     justify-content: center;
@@ -27,26 +28,28 @@
     text-decoration: none;
     transition: background-color 0.3s;
     width: $size;
-    z-index: 1000;
+    z-index: 999;
 
     &:hover {
         background-color: darken($bg-color, 10%);
     }
-}
 
-@media (max-width: 768px) {
-    .scroll-top-widget {
-        @include scroll-top-widget();
+    @media (max-width: 768px) {
+        display: flex;
     }
 }
 
-@mixin whatsapp-widget($size: 50px, $bg-color: #fd96e7, $icon-size: 1.5rem) {
+.scroll-top-widget {
+    @include scroll-top-widget();
+}
+
+@mixin whatsapp-widget($size: 50px, $bg-color: #4dc247, $icon-size: 1.5rem) {
     align-items: center;
     background-color: $bg-color;
     border-radius: 50%;
     bottom: 20px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
-    color: white;
+    color: #FAFAFA;
     display: flex;
     font-size: $icon-size;
     height: $size;
@@ -57,7 +60,7 @@
     text-decoration: none;
     transition: background-color 0.3s;
     width: $size;
-    z-index: 1000;
+    z-index: 998;
 
     &:hover {
         background-color: darken($bg-color, 10%);
